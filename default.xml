@@ -4,8 +4,8 @@
   <remote  name="aosp"
            fetch=".." />
            
-  <remote  name="ChainsDD"
-           fetch="git://github.com/ChainsDD/" />
+  <remote  name="Deodexed"
+           fetch="git://github.com/Deodexed/" />
            
   <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
@@ -51,8 +51,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clang" name="platform/external/clang" />
+  <project path="system/external/busybox" name="android_external_busybox" remote="Deodexed" revision="ics"/>
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -209,7 +208,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="ChainsDD" revision="master"/>
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="Deodexed" revision="master"/>
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -239,6 +238,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="Deodexed" revision="master"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
