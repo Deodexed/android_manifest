@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-           
+  <remote name="aosp"
+          fetch="https://android.googlesource.com" />
+          
   <remote  name="Deodexed"
            fetch="git://github.com/Deodexed/" />
-           
-  <default revision="refs/tags/android-4.0.3_r1"
-           remote="aosp"
-           sync-j="4" />
+     
+      <remote  name="git"
+     fetch="git://github.com/android/" />
+     
+
+  <default  remote="aosp"
+     revision="refs/tags/android-4.0.3_r1"
+	    />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
