@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-4.0.3_r1"
-           remote="aosp"
-           sync-j="4" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com" />
+          
+  <remote  name="Deodexed"
+           fetch="git://github.com/Deodexed/" />
+     
+      <remote  name="git"
+     fetch="git://github.com/android/" />
+     
+
+  <default  remote="aosp"
+     revision="refs/tags/android-4.0.3_r1"
+      />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -29,7 +37,7 @@
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
-  <project path="device/samsung/toro" name="device/samsung/toro" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="Deodexed" revision="ics" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -47,8 +55,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clang" name="platform/external/clang" />
+  <project path="system/external/busybox" name="android_external_busybox" remote="Deodexed" revision="ics"/>
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -205,6 +212,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="Deodexed" revision="master"/>
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -234,8 +242,10 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="Deodexed" revision="master"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
-
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="Deodexed" revision="ics" />
+  <project path="omap-tuna" name="android-omap-tuna" remote="Deodexed" revision="android-omap-tuna-3.0-mr0"/>
 </manifest>
