@@ -246,5 +246,6 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="Deodexed" revision="ics" />
   <project path="omap-tuna" name="android-omap-tuna" remote="Deodexed" revision="android-omap-tuna-3.0-mr0"/>
 </manifest>
