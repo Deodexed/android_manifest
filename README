@@ -9,7 +9,7 @@ sudo apt-get install g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline5-d
 
 TO SYNC AND BUILD MY REPO'S DO THE FOLLOWING:
 
-repo init -u git@github.com:Deodexed/android_manifest.git -b ics
+repo init -u git://github.com/Deodexed/android_manifest.git -b master
 repo sync
 
 GET THE BINARIES FOR THE GALAXY NEXUS (CDMA/LTE)
@@ -32,11 +32,14 @@ Koush
 JT1134
 peteralfonso
 SnkBitten
+TeamKang
 
 Credit the following Websites:
 http://www.Rootzwiki.com
 http://www.cyanogenmod.com
 http://www.xda-developers.com
+http://source.android.com/
+http://gitref.org/
 
 
 
