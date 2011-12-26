@@ -1,0 +1,45 @@
+PREP YOU BUILD BOX WITH THE FOLLOWING PACKAGES:
+
+## GET THE FOLLOWING PACKAGES FOR UBUNTU 10.4 64BIT LINUX##
+
+sudo apt-get install agit-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.6-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev sun-java6-jdk pngcrush schedtool
+
+sudo apt-get install g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline5-dev gcc-4.3-multilib g++-4.3-multilib
+
+
+TO SYNC AND BUILD MY REPO'S DO THE FOLLOWING:
+
+repo init -u git://github.com/Deodexed/android_manifest.git -b ics2
+repo sync
+
+GET THE BINARIES FOR THE GALAXY NEXUS (CDMA/LTE)
+
+wget https://dl.google.com/dl/android/aosp/imgtec-toro-iml74k-21966564.tgz
+
+tar -zxvf imgtec-toro-iml74k-21966564.tgz
+
+./extract-imgtec-toro.sh to pull files from Gnex.
+
+
+
+Credit the following Devs who I have learned alot from:
+Cyanogenmod
+Birdman (mrbirdman)
+Xoomdev
+ChainsDD
+CVPCS
+Koush
+JT1134
+peteralfonso
+SnkBitten
+TeamKang
+
+Credit the following Websites:
+http://www.Rootzwiki.com
+http://www.cyanogenmod.com
+http://www.xda-developers.com
+http://source.android.com/
+http://gitref.org/
+
+
+
