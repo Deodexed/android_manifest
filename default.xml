@@ -240,9 +240,9 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
-  <project path="system/extras/su" name="android_system_extras_su" remote="Deodexed" revision="ics2" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
+  <project path="system/su" name="android_system_su" remote="Deodexed" revision="master" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="Deodexed" revision="ics2" />
   <project path="vendor/deodexed" name="android_vendor_deodexed" remote="Deodexed" revision="ics2" />
