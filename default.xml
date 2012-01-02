@@ -175,6 +175,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="kernel" name="android_kernel" remote="Deodexed" revision="master"/> 
   <project path="libcore" name="platform/libcore" />
   <project path="manifest" name="android_manifest" remote="Deodexed" revision="ics2"/>
   <project path="ndk" name="platform/ndk" />
