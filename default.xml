@@ -6,14 +6,10 @@
           
   <remote  name="Deodexed"
            fetch="git://github.com/Deodexed/" />
-     
-      <remote  name="git"
-     fetch="git://github.com/android/" />
-     
-
-  <default  remote="aosp"
-     revision="refs/tags/android-4.0.3_r1"
-	    />
+           
+  <default revision="refs/tags/android-4.0.3_r1"
+     	   remote="aosp"
+     	   sync-j="4" />
 
   <project path="build" name="android_build" remote="Deodexed" revision="ics2">
     <copyfile src="core/root.mk" dest="Makefile" />
