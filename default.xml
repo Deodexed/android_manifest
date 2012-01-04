@@ -210,7 +210,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="Deodexed" revision="master"/>
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="Deodexed" revision="ics"/>
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -239,10 +239,10 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="android_system_extras" remote="Deodexed" revision="ics2" />
+  <project path="system/extras" name="android_system_extras" remote="Deodexed" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/su" name="android_system_su" remote="Deodexed" revision="master" />
+  <project path="system/su" name="android_system_su" remote="Deodexed" revision="ics" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="Deodexed" revision="ics2" />
   <project path="vendor/deodexed" name="android_vendor_deodexed" remote="Deodexed" revision="ics2" />
