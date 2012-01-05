@@ -242,5 +242,5 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="Deodexed" revision="ics2" />
   <project path="vendor/deodexed" name="android_vendor_deodexed" remote="Deodexed" revision="ics2" />
-  <project path="omap-tuna" name="android-omap-tuna" remote="Deodexed" revision="android-omap-tuna-3.0-mr0"/>
+  
 </manifest>
